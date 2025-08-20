@@ -1,0 +1,174 @@
+/*html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+.load {
+    -webkit-animation: spin 2s linear infinite;*/ /* Safari */
+    /*animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#type-BarChart, #alert-status-BarChart, #alertsDateChart div[style*="height: 100%; width: 100%;"], #alertsDateChart div[style*="height: 100%; width: 100%;"], #dateChart div[style*="height: 100%; width: 100%;"]{
+    height: 600px !important;
+}
+#alertsDateChart div[style*="height: 100%; width: 100%;"]{
+    background-color:red;
+}
+td[role="gridcell"] {
+    white-space: pre !important;
+}*/
+/*
+.k-list-scroller {
+    height: auto !important;
+    max-height: 150px !important;
+}
+*/
+
+/*.k-list-container.k-popup.k-group.k-reset {
+    height: auto !important;
+    max-height: 150px !important;
+}*/
+
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin-right: 50px;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    display: block;
+}
+
+.load {
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#type-BarChart, #alert-status-BarChart, #alertsDateChart div[style*="height: 100%; width: 100%;"], #alertsDateChart div[style*="height: 100%; width: 100%;"], #dateChart div[style*="height: 100%; width: 100%;"] {
+    height: 600px !important;
+}
+
+#alertsDateChart div[style*="height: 100%; width: 100%;"] {
+    background-color: red;
+}
+
+td[role="gridcell"] {
+    white-space: pre-wrap !important;
+}
+
+.k-grid td {
+    white-space: pre-wrap !important; /* Allows content to wrap and not stay in a single line */
+    word-wrap: break-word; /* Break long words to avoid overflow */
+}
+
+.k-grid-filter-row .k-textbox {
+    white-space: pre-wrap !important; /* Preserve white spaces */
+    word-wrap: break-word; /* Allows word breaks */
+}
+
+.k-textbox {
+    white-space: pre-wrap !important; /* Allows content to wrap and not stay in a single line */
+    word-wrap: break-word; /* Break long words to avoid overflow */
+}
+
+input, textarea {
+    white-space: pre-wrap !important; /* Preserves white spaces */
+    word-wrap: break-word; /* Allows wrapping within input fields */
+}
+/*
+.k-list-scroller {
+    height: auto !important;
+    max-height: 150px !important;
+}
+*/
+
+.k-list-container.k-popup.k-group.k-reset {
+    height: auto !important;
+    max-height: 150px !important;
+}
+
+.bootstrap-select .dropdown-menu {
+    min-width: 200px !important;
+}
+
+
+
+.nav-item.active .nav-link,
+.nav-link.active {
+    border-bottom: 2px solid #2196f3 !important;
+    color: #2196f3;
+    background-color: var(--bs-nav-tabs-link-hover-bg) !important;
+    
+    font-weight: bold;
+}
